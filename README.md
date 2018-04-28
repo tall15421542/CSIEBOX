@@ -8,18 +8,18 @@ Under ``src/`` directory
 make
 ```
 ### STEP 2 - Configuration under ``config/` directoty
-1. server.cfg Path: ``../sdir`` 
-Account_path: ``../config/account``
+1. server.cfg Path: ``../sdir``   
+Account_path: ``../config/account``  
 
-2. client.cfg 
-Name: ``<your account name, student ID in work station>``
-Server: ``localhost``
-User: ``<username in account file>`` 
-Passwd: ``<password in account file>`` 
-Path: ``../cdir``
+2. client.cfg   
+Name: ``<your account name, student ID in work station>``  
+Server: ``localhost``  
+User: ``<username in account file>``   
+Passwd: ``<password in account file>``   
+Path: ``../cdir``  
 
-3. account 
-``<username>,<password>``
+3. account   
+``<username>,<password>``  
 ### STEP 3 - Run port register under ``bin/`` directory
 ```
 ./port_register
@@ -36,7 +36,7 @@ Now you can see every change in cdir would synchronize under ``sdir/[account nam
 ## Deficiency
 * It would not handle file created/edited by vim.
 * It would not handle symbolic link.
-##More detailed SPEC
+## More detailed SPEC
 ```
 https://systemprogrammingatntu.github.io/MP2
 ```
